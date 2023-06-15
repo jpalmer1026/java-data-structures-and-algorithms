@@ -1,8 +1,8 @@
 package algorithms.sorting.insertionsort;
 
-public class InsertionSort {
+// O(n) time complexity when you start with sorted (or almost sorted) data, O(n^2) otherwise
 
-    // O(n) time complexity when you start with sorted (or almost sorted) data, O(n^2) otherwise
+public class InsertionSort {
 
     public static void insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {

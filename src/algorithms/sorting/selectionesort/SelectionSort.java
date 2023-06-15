@@ -1,8 +1,8 @@
 package algorithms.sorting.selectionesort;
 
-public class SelectionSort {
+// O(n^2) time complexity
 
-    // O(n^2)
+public class SelectionSort {
 
     public static void selectionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {

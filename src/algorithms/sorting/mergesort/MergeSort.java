@@ -2,10 +2,10 @@ package algorithms.sorting.mergesort;
 
 import java.util.Arrays;
 
-public class MergeSort {
+// O(n) space complexity
+// O(n log n) time complexity
 
-    // O(n) space complexity
-    // O(n log n) time complexity
+public class MergeSort {
 
     public static int[] mergeSort(int[] array) {
         if (array.length == 1) {
