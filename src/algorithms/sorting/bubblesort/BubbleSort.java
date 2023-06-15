@@ -1,6 +1,9 @@
 package algorithms.sorting.bubblesort;
 
 public class BubbleSort {
+
+    // O(n^2) time complexity
+
     public static void bubbleSort(int[] array) {
         for (int i = array.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {

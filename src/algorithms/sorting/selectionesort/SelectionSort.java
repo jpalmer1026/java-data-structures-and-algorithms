@@ -1,6 +1,9 @@
 package algorithms.sorting.selectionesort;
 
 public class SelectionSort {
+
+    // O(n^2)
+
     public static void selectionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int minIndex = i;
