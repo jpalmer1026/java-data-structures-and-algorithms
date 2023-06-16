@@ -1,4 +1,4 @@
-package datastructures.bst;
+package datastructures.binarysearchtree;
 
 public class Main {
 
@@ -12,6 +12,7 @@ public class Main {
         myBST.insert(82);
         myBST.insert(27);
 
+        System.out.println(myBST.contains(52));
         System.out.println(myBST.contains(17));
     }
 }
